@@ -6,5 +6,5 @@ O Projeto Integrador articula as práticas de [montagem](../UC01/README.md), [in
 
 | Atividade | Tema | Arquivos da turma |
 | --- | --- | --- |
-| [Atividade 01](https://ava.mg.senac.br/edu/mod/assign/view.php?id=623028) | Ideação, formação de equipes e pitch do Projeto Integrador | [Orientações](./Atividade-01/Atividades/Orientacoes-do-AVA.md) · [PDF](./Atividade-01/Atividades/Enunciado.pdf) |
-| [Atividade 02](https://ava.mg.senac.br/edu/mod/assign/view.php?id=624339) | Detalhamento do projeto e plano de ação | [Orientações](./Atividade-02/Atividades/Orientacoes-do-AVA.md) · [PDF](./Atividade-02/Atividades/Enunciado.pdf) |
+| [Atividade 01](https://ava.mg.senac.br/edu/mod/assign/view.php?id=623028) | Ideação, formação de equipes e pitch do Projeto Integrador | [Materiais](./Atividade-01/Materiais/) · [PDF](./Atividade-01/Materiais/Enunciado.pdf) |
+| [Atividade 02](https://ava.mg.senac.br/edu/mod/assign/view.php?id=624339) | Detalhamento do projeto e plano de ação | [Materiais](./Atividade-02/Materiais/) · [PDF](./Atividade-02/Materiais/Enunciado.pdf) |

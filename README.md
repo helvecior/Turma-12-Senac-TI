@@ -52,9 +52,8 @@ O curso tem 16 unidades. As UCs com pasta publicada têm um link no índice. O [
 
 | Dentro de cada tarefa | O que guardar | Exemplo |
 | --- | --- | --- |
-| [Atividades](./Configuracoes/Modelo-Tarefa/Atividades/) | O que o professor pediu, incluindo enunciado, roteiro e critérios de entrega. | PDF com as instruções da prática. |
 | [Entregas](./Configuracoes/Modelo-Tarefa/Entregas/) | O que o aluno ou grupo produziu. Quando houver várias entregas, use uma subpasta por autor ou equipe. | `Entregas/Grupo-02/Relatorio.pdf` |
-| [Materiais](./Configuracoes/Modelo-Tarefa/Materiais/) | Arquivos e referências usados para realizar a atividade. | Manual de apoio ou `links.md` com o repositório de exemplo. |
+| [Materiais](./Configuracoes/Modelo-Tarefa/Materiais/) | Enunciados, materiais de apoio, instruções, regras, modelos e licenças. | Manual de apoio ou `links.md` com o repositório de exemplo. |
 
 Se a própria **entrega** estiver no GitHub, registre o link em `Entregas/`, junto com o nome do trabalho. A finalidade do arquivo determina a pasta.
 
@@ -74,7 +73,7 @@ No Linux ou no Git Bash, o comando abaixo executa os dois primeiros passos do ex
 cp -r Configuracoes/Modelo-Tarefa UC03/Tarefa-XX-Revisao
 ```
 
-Os arquivos ocultos `.gitkeep` permitem que o Git inclua as três subpastas mesmo enquanto estão vazias.
+Os arquivos ocultos `.gitkeep` permitem que o Git inclua as duas subpastas mesmo enquanto estão vazias.
 
 ## Guia de Git e GitHub
 

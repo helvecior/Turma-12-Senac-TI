@@ -6,4 +6,4 @@ Repositório oficial para treino de **Fork**, **Branch** e **Pull Request** com 
 ## Sua Entrega
 Você deverá submeter **apenas 1 arquivo `.md`** dentro da pasta `entregas/`, documentando um procedimento técnico de manutenção, diagnóstico ou backup/restore da **UC 3**.
 
-Leia o arquivo [REGRAS-PR.md] antes de começar.
+Leia o arquivo [REGRAS-PR.md](./Materiais/REGRAS-PR.md) antes de começar.

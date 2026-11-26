@@ -57,9 +57,8 @@ Montar um pasta que contenha um README.md que explique:
 
 Como cada UC terá várias tarefas, e como parte delas não tem ainda, faremos uma pasta modelo (`Configuracoes/Modelo-Tarefa/`), que conterá os seguintes componentes:
 
-- Atividades
-- Entregas
 - Materiais
+- Entregas
 
 Se você conseguir acessar sites, você pode acessar o site que tem as UC's com seus arquivos dentro e fazer a organização para mim, nas uc's 1 e 2, os arquivos estão no site [https://ava.mg.senac.br/edu/course/view.php?id=18936](https://ava.mg.senac.br/edu/course/view.php?id=18936).
 

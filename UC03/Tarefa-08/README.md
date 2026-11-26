@@ -8,7 +8,7 @@ Cada aluno deve escolher **1 tema na aba Issues** e enviar **apenas 1 arquivo `.
 ## Regras da Entrega
 1. **Escolha sua tarefa:** Comente `"Aluno: Seu nome"` na Issue escolhida e anote o número dela (`#X`).
 2. **Fork e Branch:** Faça o *fork* deste repositório e crie uma *branch* exclusiva (`docs/issue-X-seu-nome`). Nunca envie direto da `main`.
-3. **Padronização:** Copie a estrutura do arquivo [TEMPLATE.md](TEMPLATE.md) e salve na pasta `artigos/` usando o nome exato indicado na Issue (letras minúsculas, sem espaços e sem acentos).
+3. **Padronização:** Copie a estrutura do arquivo [TEMPLATE.md](./Materiais/TEMPLATE.md) e salve na pasta `artigos/` usando o nome exato indicado na Issue (letras minúsculas, sem espaços e sem acentos).
 4. **Vínculo no Pull Request:** Na descrição do seu PR, escreva `Closes #X` (com o número da sua Issue) para fechá-la automaticamente após a aprovação.
 
-### Consulte o passo a passo completo em [INSTRUCOES.md](INSTRUCOES.md).
+### Consulte o passo a passo completo em [INSTRUCOES.md](./Materiais/INSTRUCOES.md).

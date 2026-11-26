@@ -1,6 +1,6 @@
 # Tarefa 06 · Documentação versionada de backup e clonagem em rede
 
-[Orientações e anexos do AVA](./Atividades/Orientacoes-do-AVA.md)
+[Orientações e anexos do AVA](https://ava.mg.senac.br/edu/mod/assign/view.php?id=631099)
 
 O arquivo de exemplo da turma mostra um primeiro README com recursos do Markdown.
 

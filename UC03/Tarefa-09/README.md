@@ -4,9 +4,9 @@ Repositório colaborativo da turma do curso **Técnico em Informática (Senac)**
 
 ## Por onde começar?
 
-1. Leia o passo a passo completo no arquivo **[INSTRUCOES.md](INSTRUCOES.md)**.
+1. Leia o passo a passo completo no arquivo **[INSTRUCOES.md](./Materiais/INSTRUCOES.md)**.
 2. Escolha **1 tema** na aba **Issues** deste repositório e comente `"Aluno: Seu nome"`.
-3. Siga rigorosamente o modelo de estrutura disponível em **[MODELO-ARTIGO.md](MODELO-ARTIGO.md)**.
+3. Siga rigorosamente o modelo de estrutura disponível em **[MODELO-ARTIGO.md](./Materiais/MODELO-ARTIGO.md)**.
 
 ## Regras da Esteira de Colaboração
 
