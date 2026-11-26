@@ -4,4 +4,4 @@
 
 ## Tarefas
 
-As pastas de cada tarefa ficam nesta unidade. Para cadastrar a próxima, copie o [modelo de tarefa](../Configuracoes/Modelo-Tarefa/) e siga as [instruções do curso](../README.md#como-criar-uma-tarefa).
+Para cadastrar uma tarefa nesta unidade, abra o [workflow Criar pasta de tarefa](https://github.com/helvecior/Turma-12-Senac-TI/actions/workflows/createUCdirectory.yml), selecione `UC05` e informe o número da atividade com dois dígitos. O [tutorial do curso](../README.md#como-criar-uma-tarefa) mostra como preencher o formulário, acompanhar a execução e localizar a pasta criada.

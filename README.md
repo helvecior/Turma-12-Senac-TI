@@ -59,21 +59,39 @@ Se a própria **entrega** estiver no GitHub, registre o link em `Entregas/`, jun
 
 ## Como criar uma tarefa
 
-Em **Actions → Criar pasta de tarefa → Run workflow**, escolha a UC e informe o número da tarefa com dois dígitos. O workflow cria a pasta da UC quando necessário, copia o modelo e registra a tarefa na branch selecionada. Ao inaugurar uma UC, acrescente o link para ela no índice.
+Use o workflow **Criar pasta de tarefa** sempre que a turma precisar de uma nova pasta. A primeira tarefa de uma UC também cria a pasta da unidade. Para executar o workflow, entre no GitHub com uma conta que tenha permissão de escrita neste repositório.
 
-Para criar a estrutura manualmente:
+### 1. Abrir o formulário
 
-1. Na raiz do repositório, copie a pasta `Configuracoes/Modelo-Tarefa/` para dentro da UC correspondente.
-2. Dê à cópia um nome com o número da tarefa e um tema curto. Por exemplo, para uma nova tarefa de revisão na UC03, use `UC03/Tarefa-XX-Revisao/`, substituindo `XX` pelo número da nova tarefa.
-3. Coloque cada arquivo na subpasta correspondente. No `README.md` da UC, acrescente um link como `[Tarefa XX — Revisão](./Tarefa-XX-Revisao/)`.
+1. Abra a aba **Actions** no topo do repositório.
+2. Na barra lateral esquerda, selecione **Criar pasta de tarefa**. Você também pode [abrir o workflow diretamente](https://github.com/helvecior/Turma-12-Senac-TI/actions/workflows/createUCdirectory.yml).
+3. Acima da lista de execuções, clique em **Run workflow** (Executar fluxo de trabalho). Esse primeiro clique abre o formulário.
 
-No Linux ou no Git Bash, o comando abaixo executa os dois primeiros passos do exemplo. Rode-o na raiz, ao criar essa tarefa pela primeira vez.
+### 2. Escolher a UC e o número
 
-```bash
-cp -r Configuracoes/Modelo-Tarefa UC03/Tarefa-XX-Revisao
-```
+| Campo | O que selecionar ou digitar | Exemplo |
+| --- | --- | --- |
+| **Branch** | Escolha `main` para publicar a pasta na branch principal da turma. | `main` |
+| **Em qual UC deseja criar a tarefa?** | Selecione a unidade no menu, de `UC01` a `UC16`. Você pode escolher uma UC cuja pasta ainda será criada. | `UC06` |
+| **Número da tarefa** | Digite o número previsto para a atividade, com dois dígitos, de `01` a `99`. | `03` |
 
-Os arquivos ocultos `.gitkeep` permitem que o Git inclua as duas subpastas mesmo enquanto estão vazias.
+Confira os três campos e clique no botão **Run workflow** dentro do formulário. Com os valores do exemplo, o GitHub cria `UC06/Tarefa-03/Materiais/` e `UC06/Tarefa-03/Entregas/`. Se a pasta `UC06/` já existir, a nova tarefa entra ao lado das anteriores. O próprio workflow faz o commit e o push.
+
+### 3. Conferir a execução e usar a pasta
+
+1. Na página do workflow, abra a execução que acabou de iniciar. Aguarde a marca verde de sucesso.
+2. Volte à aba **Code**, selecione a mesma branch e abra a UC e a tarefa. No exemplo, o caminho é **UC06 → Tarefa-03**.
+3. Coloque enunciados e arquivos de apoio em **Materiais**. Coloque os trabalhos dos alunos em **Entregas**. O arquivo oculto `.gitkeep` permite que o Git registre cada subpasta antes da chegada dos primeiros documentos.
+4. Atualize o índice da UC com o nome e o link da tarefa. Se for a primeira atividade da unidade, crie o `README.md` da UC e vincule a nova unidade na tabela deste README. Os índices são mantidos pela turma.
+
+### Se algo der errado
+
+| O que você vê | Como proceder |
+| --- | --- |
+| O botão **Run workflow** não aparece | Confira se abriu o workflow **Criar pasta de tarefa** na lateral de **Actions** e se sua conta tem acesso de escrita. |
+| A execução mostra um **× vermelho** | Abra a execução, clique em **criar-tarefa** e expanda a etapa marcada em vermelho para ler a mensagem. |
+| A mensagem indica que a pasta já existe | Abra a pasta pela aba **Code** para acrescentar o material. Se pretendia cadastrar outra tarefa, execute o workflow com o número correspondente. |
+| A mensagem pede um número com dois dígitos | Abra o formulário novamente e use, por exemplo, `03`. O intervalo aceito é de `01` a `99`. |
 
 ## Guia de Git e GitHub
 
@@ -86,7 +104,7 @@ git clone https://github.com/helvecior/Turma-12-Senac-TI.git curso-senac
 cd curso-senac
 ```
 
-Se estiver usando este ZIP no clone da turma pela primeira vez, extraia-o em uma pasta separada. Copie o modelo `Configuracoes/Modelo-Tarefa/` e os arquivos da UC que você quer adicionar para o clone. Confira os arquivos existentes antes de substituí-los.
+Se o workflow criou a pasta depois que você clonou o repositório, atualize a sua `main` conforme o próximo passo.
 
 ### 2. Atualizar a main e criar uma branch
 
@@ -103,13 +121,13 @@ O `pull --ff-only` atualiza a branch quando o histórico local pode avançar dir
 
 ### 3. Registrar os arquivos e publicar a branch
 
-Depois de copiar o modelo, adicionar os arquivos e atualizar o índice da UC, prepare apenas os caminhos dessa contribuição. Confira o resumo antes de registrar o commit.
+Depois de adicionar os arquivos à pasta criada pelo workflow e atualizar o índice da UC, prepare apenas os caminhos dessa contribuição. O exemplo usa a tarefa 03 da UC03. Confira o resumo antes de registrar o commit.
 
 ```bash
 git status
-git add UC03/Tarefa-XX-Revisao/ UC03/README.md
+git add UC03/Tarefa-03/ UC03/README.md
 git diff --cached --stat
-git commit -m "Adiciona a tarefa de revisão à UC03"
+git commit -m "Adiciona materiais à tarefa 03 da UC03"
 git push -u origin docs/uc03-revisao
 ```
 
