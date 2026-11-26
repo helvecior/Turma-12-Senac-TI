@@ -3,7 +3,7 @@ name: Criar pasta de tarefa
 on:
   workflow_dispatch:
     inputs:
-      uc:
+      UC:
         description: "Em qual UC deseja criar a tarefa?"
         type: choice
         required: true
@@ -24,7 +24,7 @@ on:
           - UC14
           - UC15
           - UC16
-      numero:
+      Numero:
         description: "Número da tarefa (ex.: 03)"
         type: string
         required: true
@@ -43,8 +43,8 @@ jobs:
       - name: Copiar o modelo e publicar a tarefa
         shell: bash
         env:
-          UC: ${{ inputs.uc }}
-          NUMERO: ${{ inputs.numero }}
+          UC: ${{ inputs.UC }}
+          NUMERO: ${{ inputs.Numero }}
         run: |
           if [[ ! "$NUMERO" =~ ^[0-9]{2}$ || "$NUMERO" == "00" ]]; then
             echo "Informe um número de 01 a 99, usando dois dígitos."
