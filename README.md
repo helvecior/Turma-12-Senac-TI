@@ -7,7 +7,7 @@ Este repositório reúne e organiza os conteúdos, atividades e materiais trabal
 O repositório está dividido em **16 Unidades Curriculares (UCs)**. Cada UC possui sua própria branch. Acesse os conteúdos pelos links abaixo. **[PI]** identifica um Projeto Integrador.
 
 | UC | Título da UC |
-|---:|---|
+| ---: | --- |
 | 1 | [Planejar e executar a montagem de computadores](https://github.com/helvecior/Turma-12-Senac-TI/tree/UC01) |
 | 2 | [Planejar e executar a instalação de hardware e software para computadores](https://github.com/helvecior/Turma-12-Senac-TI/tree/UC02) |
 | 3 | [Planejar e executar a manutenção de computadores](https://github.com/helvecior/Turma-12-Senac-TI/tree/UC03) |
