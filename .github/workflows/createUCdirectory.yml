@@ -3,7 +3,7 @@ name: Criar pasta de tarefa
 on:
   workflow_dispatch:
     inputs:
-          uc:
+      uc:
         description: "Em qual UC deseja criar a tarefa?"
         type: choice
         required: true
