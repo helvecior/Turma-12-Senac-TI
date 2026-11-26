@@ -8,4 +8,4 @@ Acesse <https://github.com/InfoSenac/0012_uc3_tarefa09> e siga as instruções.
 
 Ao finalizar, cole o link do seu repositório nesta tarefa.
 
-[Roteiros e exemplos do InfoSenac](../README.md)
+[Roteiros, modelos e entregas](./README.md)

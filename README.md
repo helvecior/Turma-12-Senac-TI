@@ -15,17 +15,17 @@ Este acervo reúne os enunciados, os modelos e os materiais de estudo da Turma 1
 | [UC03](./UC03/) | Planejar e executar a manutenção de computadores |
 | [UC04](./UC04/) | Projeto Integrador Assistente de Suporte em Manutenção de Computadores |
 | [UC05](./UC05/) | Planejar e executar a instalação de redes locais de computadores |
-| [UC06](./UC06/) | Planejar e executar a manutenção de redes locais de computadores |
-| [UC07](./UC07/) | Planejar e executar a instalação, a configuração e o monitoramento de sistemas operacionais de redes locais (servidores) |
-| [UC08](./UC08/) | Projeto Integrador Assistente de Operação de Redes de Computadores |
-| [UC09](./UC09/) | Desenvolver algoritmos |
-| [UC10](./UC10/) | Desenvolver banco de dados |
-| [UC11](./UC11/) | Executar os processos de codificação, manutenção e documentação de aplicativos computacionais para desktop |
-| [UC12](./UC12/) | Executar os processos de codificação, manutenção e documentação de aplicativos computacionais para internet |
-| [UC13](./UC13/) | Executar os processos de codificação, manutenção e documentação de aplicativos computacionais para mobile |
-| [UC14](./UC14/) | Elaborar design de interação para aplicações web |
-| [UC15](./UC15/) | Desenvolver e organizar elementos estruturais de sites |
-| [UC16](./UC16/) | Projeto Integrador Assistente de Desenvolvimento de Aplicativos Computacionais |
+| UC06 | Planejar e executar a manutenção de redes locais de computadores |
+| UC07 | Planejar e executar a instalação, a configuração e o monitoramento de sistemas operacionais de redes locais (servidores) |
+| UC08 | Projeto Integrador Assistente de Operação de Redes de Computadores |
+| UC09 | Desenvolver algoritmos |
+| UC10 | Desenvolver banco de dados |
+| UC11 | Executar os processos de codificação, manutenção e documentação de aplicativos computacionais para desktop |
+| UC12 | Executar os processos de codificação, manutenção e documentação de aplicativos computacionais para internet |
+| UC13 | Executar os processos de codificação, manutenção e documentação de aplicativos computacionais para mobile |
+| UC14 | Elaborar design de interação para aplicações web |
+| UC15 | Desenvolver e organizar elementos estruturais de sites |
+| UC16 | Projeto Integrador Assistente de Desenvolvimento de Aplicativos Computacionais |
 
 ## Avisos e links importantes
 
@@ -48,26 +48,30 @@ Este acervo reúne os enunciados, os modelos e os materiais de estudo da Turma 1
 
 ## Organização do repositório
 
-Este pacote contém as pastas `UC01/` a `UC16/`. Elas permitem navegar pelos materiais depois de extrair o ZIP. O [repositório da turma](https://github.com/helvecior/Turma-12-Senac-TI) também pode ser consultado online. Cada unidade pode receber várias tarefas. A pasta [Tarefa](./Tarefa/) na raiz serve de modelo para todas elas.
+O curso tem 16 unidades. As UCs com pasta publicada têm um link no índice. O [repositório da turma](https://github.com/helvecior/Turma-12-Senac-TI) também pode ser consultado online. Cada unidade pode receber várias tarefas. A pasta [Modelo-Tarefa](./Configuracoes/Modelo-Tarefa/) serve de modelo para todas elas.
 
 | Dentro de cada tarefa | O que guardar | Exemplo |
 | --- | --- | --- |
-| [Atividades](./Tarefa/Atividades/) | O que o professor pediu, incluindo enunciado, roteiro e critérios de entrega. | PDF com as instruções da prática. |
-| [Envios](./Tarefa/Envios/) | O que o aluno ou grupo produziu. Quando houver várias entregas, use uma subpasta por autor ou equipe. | `Envios/Grupo-02/Relatorio.pdf` |
-| [Materiais](./Tarefa/Materiais/) | Arquivos e referências usados para realizar a atividade. | Manual de apoio ou `links.md` com o repositório de exemplo. |
+| [Atividades](./Configuracoes/Modelo-Tarefa/Atividades/) | O que o professor pediu, incluindo enunciado, roteiro e critérios de entrega. | PDF com as instruções da prática. |
+| [Entregas](./Configuracoes/Modelo-Tarefa/Entregas/) | O que o aluno ou grupo produziu. Quando houver várias entregas, use uma subpasta por autor ou equipe. | `Entregas/Grupo-02/Relatorio.pdf` |
+| [Materiais](./Configuracoes/Modelo-Tarefa/Materiais/) | Arquivos e referências usados para realizar a atividade. | Manual de apoio ou `links.md` com o repositório de exemplo. |
 
-Se a própria **entrega** estiver no GitHub, registre o link em `Envios/`, junto com o nome do trabalho. A finalidade do arquivo determina a pasta.
+Se a própria **entrega** estiver no GitHub, registre o link em `Entregas/`, junto com o nome do trabalho. A finalidade do arquivo determina a pasta.
 
 ## Como criar uma tarefa
 
-1. Na raiz do repositório, copie a pasta `Tarefa/` para dentro da UC correspondente.
+Em **Actions → Criar pasta de tarefa → Run workflow**, escolha a UC e informe o número da tarefa com dois dígitos. O workflow cria a pasta da UC quando necessário, copia o modelo e registra a tarefa na branch selecionada. Ao inaugurar uma UC, acrescente o link para ela no índice.
+
+Para criar a estrutura manualmente:
+
+1. Na raiz do repositório, copie a pasta `Configuracoes/Modelo-Tarefa/` para dentro da UC correspondente.
 2. Dê à cópia um nome com o número da tarefa e um tema curto. Por exemplo, para uma nova tarefa de revisão na UC03, use `UC03/Tarefa-XX-Revisao/`, substituindo `XX` pelo número da nova tarefa.
 3. Coloque cada arquivo na subpasta correspondente. No `README.md` da UC, acrescente um link como `[Tarefa XX — Revisão](./Tarefa-XX-Revisao/)`.
 
 No Linux ou no Git Bash, o comando abaixo executa os dois primeiros passos do exemplo. Rode-o na raiz, ao criar essa tarefa pela primeira vez.
 
 ```bash
-cp -r Tarefa UC03/Tarefa-XX-Revisao
+cp -r Configuracoes/Modelo-Tarefa UC03/Tarefa-XX-Revisao
 ```
 
 Os arquivos ocultos `.gitkeep` permitem que o Git inclua as três subpastas mesmo enquanto estão vazias.
@@ -83,7 +87,7 @@ git clone https://github.com/helvecior/Turma-12-Senac-TI.git curso-senac
 cd curso-senac
 ```
 
-Se estiver usando este ZIP no clone da turma pela primeira vez, extraia-o em uma pasta separada. Copie o modelo `Tarefa/` e os arquivos da UC que você quer adicionar para o clone. Confira os arquivos existentes antes de substituí-los.
+Se estiver usando este ZIP no clone da turma pela primeira vez, extraia-o em uma pasta separada. Copie o modelo `Configuracoes/Modelo-Tarefa/` e os arquivos da UC que você quer adicionar para o clone. Confira os arquivos existentes antes de substituí-los.
 
 ### 2. Atualizar a main e criar uma branch
 

@@ -12,4 +12,4 @@ Abra o repositório: <https://github.com/InfoSenac/0012_uc3_tarefa10> e crie um 
 
 - [TAREFA 10 - UC3.pdf](./Enunciado.pdf)
 
-[Roteiros e exemplos do InfoSenac](../README.md)
+[Roteiros, modelos e entregas](./README.md)

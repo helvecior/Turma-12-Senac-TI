@@ -12,4 +12,4 @@ Ao finalizar, envie o link do repositório no GitHub utilizado para realizar a t
 
 - [TAREFA 07 - UC3.pdf](./Enunciado.pdf)
 
-[Roteiros e exemplos do InfoSenac](../README.md)
+[Roteiros, modelos e entregas](./README.md)

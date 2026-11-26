@@ -1,9 +1,9 @@
-# Tarefa 07 · Prática de fork, branch e pull request
+# Prática de Esteira Git/GitHub — 
+UC 3 (Manutenção de Computadores)
 
-[Orientações e anexos do AVA](./Atividades/Orientacoes-do-AVA.md)
+Repositório oficial para treino de **Fork**, **Branch** e **Pull Request** com documentação técnica em Markdown (`.md`).
 
-| Arquivo | Cópia para consulta | Fonte da turma |
-| --- | --- | --- |
-| Orientacoes.md | [Abrir](./Atividades/Orientacoes.md) | [Ver no GitHub](https://github.com/InfoSenac/0012_uc3_tarefa07/blob/main/README.md) |
-| REGRAS-PR.md | [Abrir](./Atividades/REGRAS-PR.md) | [Ver no GitHub](https://github.com/InfoSenac/0012_uc3_tarefa07/blob/main/REGRAS-PR.md) |
-| MODELO-DOCUMENTO.md | [Abrir](./Materiais/MODELO-DOCUMENTO.md) | [Ver no GitHub](https://github.com/InfoSenac/0012_uc3_tarefa07/blob/main/MODELO-DOCUMENTO.md) |
+## Sua Entrega
+Você deverá submeter **apenas 1 arquivo `.md`** dentro da pasta `entregas/`, documentando um procedimento técnico de manutenção, diagnóstico ou backup/restore da **UC 3**.
+
+Leia o arquivo [REGRAS-PR.md] antes de começar.

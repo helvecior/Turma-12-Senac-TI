@@ -38,7 +38,7 @@ Neste guia você encontrará todas as etapas para escolher uma tarefa, estrutura
 
 1. No Explorer do VS Code, abra a pasta `artigos/` e crie **apenas 1 arquivo `.md`** com o nome exato indicado na sua Issue (exemplo: `artigos/erro-vtx-amdv-hyperv.md`).
    > ⚠️ **Atenção:** Use apenas letras minúsculas, sem espaços e sem acentos (`kebab-case`). Não altere nenhum outro arquivo do repositório.
-2. Copie a estrutura do arquivo [`TEMPLATE.md`](../Materiais/TEMPLATE.md) e cole dentro do seu novo arquivo.
+2. Copie a estrutura do arquivo [`TEMPLATE.md`](TEMPLATE.md) e cole dentro do seu novo arquivo.
 3. Preencha as seções com informações técnicas objetivas, mantendo o artigo enxuto (**entre 20 e 30 linhas**) e utilizando os 5 recursos essenciais do Markdown:
    * `# Título` — Título principal do procedimento (apenas um por arquivo).
    * `## Subtítulo` — Divisão das seções (`1. Quando Aplicar`, `2. Ferramentas Necessárias`, `3. Passo a Passo Rápido`).

@@ -4,4 +4,4 @@
 
 ## Tarefas
 
-As pastas de cada tarefa ficam nesta unidade. Para cadastrar a próxima, copie o [modelo Tarefa](../Tarefa/) e siga as [instruções do curso](../README.md#como-criar-uma-tarefa).
+As pastas de cada tarefa ficam nesta unidade. Para cadastrar a próxima, copie o [modelo de tarefa](../Configuracoes/Modelo-Tarefa/) e siga as [instruções do curso](../README.md#como-criar-uma-tarefa).

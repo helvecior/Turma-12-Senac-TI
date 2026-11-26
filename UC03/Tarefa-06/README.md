@@ -6,4 +6,4 @@ O arquivo de exemplo da turma mostra um primeiro README com recursos do Markdown
 
 | Arquivo | Cópia para consulta | Fonte da turma |
 | --- | --- | --- |
-| Exemplo.md | [Abrir](./Materiais/Exemplo.md) | [Ver no GitHub](https://github.com/InfoSenac/0012_uc3_tarefa06/blob/main/README.md) |
+| README.md | [Abrir](./Materiais/README.md) | [Ver no GitHub](https://github.com/InfoSenac/0012_uc3_tarefa06/blob/main/README.md) |

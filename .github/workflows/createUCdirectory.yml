@@ -58,7 +58,8 @@ jobs:
             exit 1
           fi
 
-          cp -r -- Modelo-Tarefa "$destino"
+          mkdir -p -- "$UC"
+          cp -r -- Configuracoes/Modelo-Tarefa "$destino"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
