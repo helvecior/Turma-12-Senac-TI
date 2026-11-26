@@ -3,14 +3,14 @@
 Versão que com o intuito do 16 ser o mais antigo: não funcionou
 
 ``` bash
-for i in {16..01}; git checkout -b "UC$i"; git push -u origin "UC$i"; done
+for i in {16..01}; do git checkout -b "UC$i"; git push -u origin "UC$i"; done
 
 ```
 
-Versão que com o intuito do 16 ser o mais novo: não funcionou
+Versão que com o intuito do 16 ser o mais novo: a ser testado
 
 ``` bash
-for i in {01..16}; git checkout -b "UC$i"; git push -u origin "UC$i"; done
+for i in {01..16}; do git checkout -b "UC$i"; git push -u origin "UC$i"; done
 ```
 
 ## Comando usado para apagar todas as branches locais e remotas caso dê algum erro
