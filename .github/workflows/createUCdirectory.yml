@@ -60,6 +60,7 @@ jobs:
 
           mkdir -p -- "$UC"
           cp -r -- Configuracoes/Modelo-Tarefa "$destino"
+          touch "$destino/README.md"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
