@@ -24,7 +24,7 @@ on:
           - UC14
           - UC15
           - UC16
-      numero:
+        numero:
         description: "Número da tarefa (ex.: 03)"
         type: string
         required: true
