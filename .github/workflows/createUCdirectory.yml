@@ -63,8 +63,8 @@ jobs:
           mv $destino/MODELO-README.md $destino/README.md
           
           sed -i \
-          -e "s/{{ UC }}/$UC/g"\
-          -e "s/{{ NUMERO }}/$NUMERO/g"\
+          -e "s/{{ UC }}/$UC/g" \
+          -e "s/{{ NUMERO }}/$NUMERO/g" \
           "$destino/README.md"
 
           git config user.name "github-actions[bot]"
