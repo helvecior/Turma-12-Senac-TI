@@ -60,7 +60,12 @@ jobs:
 
           mkdir -p -- "$UC"
           cp -r -- Configuracoes/Modelo-Tarefa "$destino"
-          touch "$destino/README.md"
+          mv $destino/MODELO-README.md $destino/README.md
+          
+          sed -i \
+          -e "s/{{ UC }}/$UC/g"\
+          -e "s/{{ NUMERO }}/$NUMERO/g"\
+          "$destino/README.md"
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
