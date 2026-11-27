@@ -1,4 +1,4 @@
-# **TAREFA [NN] - UC[X]**
+# **TAREFA {{ input.numero }} - {{ input.uc }}**
 
 ## **[Título Descritivo da Atividade Prática]**
 
@@ -6,7 +6,7 @@
 
 * #### **Unidade Curricular:**
 
-  * UC [X] – [Nome Completo da Unidade Curricular] ([Carga Horária]h)
+  * UC {{ input.uc }} – [Nome Completo da Unidade Curricular] ([Carga Horária]h)
 
 * #### **Indicadores Mobilizados:**
 
@@ -59,7 +59,7 @@ Reúna e envie as evidências abaixo conforme o padrão da turma ([capturas de t
 
 ### **Matriz de Avaliação Formativa (Modelo Pedagógico Senac)**
 
-| Critério de Desempenho | Indicador (UC [X]) |
+| Critério de Desempenho | Indicador (UC {{ input.uc }}) |
 | :---: | :---: |
 | **[Dimensão 1 — Preparação e Organização]:** [Descreve o preparo correto do ambiente, recursos e estado inicial antes das intervenções]. | Indicador [N] |
 | **[Dimensão 2 — Execução Técnica]:** [Descreve a aplicação correta das ferramentas, comandos ou procedimentos técnicos sem comprometer a integridade do sistema]. | Indicador [N] |
